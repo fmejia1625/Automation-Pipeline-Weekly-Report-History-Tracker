@@ -1,0 +1,51 @@
+{
+    "file_path": "C:\\Users\\franciscom\\OneDrive - teachersfcu.org\\Automation Pipeline Weekly - Documents\\Automation_Pipeline_Weekly_2026_V.2.1.xlsx",
+    "source_sheet": "Data_Set_Bots",
+    "history_sheet": "Bot_History_Data",
+    "history_table": "Table2",
+    "timezone": "US/Eastern",
+    "highlight_color_changed": "C6EFCE",
+    "columns": [
+        "Snapshot Week",
+        "Snapshot Date",
+        "Snapshot Timestamp",
+        "Snapshot Timestamp UTC",
+        "Domain",
+        "Bot Name",
+        "Bot ID (S.No.)",
+        "Point of Contact",
+        "Complexity",
+        "Priority",
+        "Bot Status",
+        "Bot Current Phase",
+        "Date Status",
+        "Date Completion",
+        "Dependency",
+        "Change Detected",
+        "Change Details"
+    ],
+    "compare_columns": [
+        "Bot Status",
+        "Bot Current Phase",
+        "Date Status",
+        "Date Completion",
+        "Dependency",
+        "Point of Contact",
+        "Complexity",
+        "Priority"
+    ],
+    "date_columns": [
+        "Date Completion"
+    ],
+    "rename_map": {
+        "S.No.": "Bot ID (S.No.)",
+        "Current Phase": "Bot Current Phase",
+        "Status": "Bot Status",
+        "Estimated Completion Date Display": "Date Completion",
+        "POC": "Point of Contact",
+        "Point of Contact": "Point of Contact"
+    },
+    "fallback_columns": {
+        "Dependency": "Dependency Display Pivot"
+    }
+}
