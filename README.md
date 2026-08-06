@@ -34,3 +34,7 @@ python bot_history_logger_config_driven_with_utc_v3.py
 ## Notes
 
 Make sure the JSON configuration file is present and correctly populated before running the script.
+
+## Current execution setup
+
+The script currently runs on the business user's local machine via Windows Task Scheduler every day at 1:00 PM.
